@@ -1,2 +1,2 @@
 # Linux-System-Monitoring-Script
-Bash script to monitor system health
+Simple Bash script to monitor system health and display system information
