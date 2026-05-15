@@ -63,6 +63,7 @@ uptime
 ## How to Run
 
 chmod +x system_monitor.txt
+
 bash system_monitor.txt
 
 ## Sample Output
