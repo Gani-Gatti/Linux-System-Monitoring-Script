@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# This bash script monitors system health and displays system information
+
+echo "=============================="
+# echo "======" used to seperate the commands and information for better visibility
+echo "CPU Usage"
+
+top -b -n 1
+echo "=============================="
+
+echo "=============================="
+echo "Memory Usage"
+
+free -h
+echo "=============================="
+
+echo "=============================="
+echo "Disk Usage"
+
+df -h
+echo "=============================="
+
+echo "=============================="
+
+echo "Running Processes"
+
+ps -ef --sort=-%cpu | head
+
+echo "=============================="
+
+echo "=============================="
+
+uptime
+echo "=============================="
